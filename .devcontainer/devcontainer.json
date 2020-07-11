@@ -1,0 +1,10 @@
+{
+  "name": "Create React App Remote container for Visual Studio Code",
+  "dockerFile": "Dockerfile",
+  "appPort": 3333,
+  "extensions": ["dbaeumer.vscode-eslint"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npx create-react-app app"
+}
